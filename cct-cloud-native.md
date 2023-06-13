@@ -69,10 +69,9 @@ Le mode produit et l’agilité sont indispensables en complément de l’utilis
 
 Le fonctionnement évolue vers la suppression de la fragmentation des responsabilités dans la chaîne de production et l’automatisation de celui-ci. (cf mode2 proposé par le Gartner) 
 
-**L’équipe projet intégrée (équipe produit) voit ses prérogatives étendues:**
-
+**L’équipe projet intégrée (équipe produit) voit ses prérogatives étendues**:
 * Elle est organisée autour du produit numérique livré. Elle fonctionne en modalité intégrée et de manière autonome en lien avec la vision et les contraintes fixées. 
-* Elle est composée de développeurs, architectes, ergonome (ux-design), juriste, gestionnaire du changement, etc… orchestrée par le product owner et généralement facilité par un coach / scrum master agile. Elle est focalisée sur l'ergonomie, la qualité et la performance de la solution mise à disposition des usagers. C’est le modèle «You build it, you run it, you support it ». (vous l’avez construit vous l’opérez )
+* Elle est composée de développeurs, architectes, ergonome (ux-design), juriste, gestionnaire du changement, etc… orchestrée par le product owner et généralement facilité par un coach / scrum master agile. Elle est focalisée sur l'ergonomie, la qualité et la performance de la solution mise à disposition des usagers. C’est le modèle **«You build it, you run it, you support it »**. (vous l’avez construit vous l’opérez )
 * Une équipe d’aide appelée “service team” qui peut être temporaire ou permanente selon la taille de produit est chargée de mettre en place l’automatisation et les environnements de travail et de production. Cette dernière doit être aguerrie à ces technologies et l’offre cloud native.
 
 **L’hébergeur assure quant à lui**, la mise à disposition d’une offre de service hautement disponible et sécurisée. L’usage de l’offre est réalisé via une console, une interface technique normée (API), une documentation et des exemples accélèrent la prise en main.
@@ -116,15 +115,15 @@ Ce document ainsi que le référentiel d’exigences sont annexés aux dossiers 
 
 D’autres référentiels d’exigences ou des guides peuvent être applicables ou conseillés. voir plus loin le chapitre sur les cadres de normes supérieures.
 
-**Offre de service Cloud (π) Native :**
+**Offre de service Cloud (π) Native**:
 
 Concerne la description de l’offre de service managé d’infrastructure Cloud **π** et d’une chaîne DevSecOps assurant l’homologation en continu et le déploiement en production. Cf. présentation de l’offre plus loin dans ce document.
 
-**Poste de travail agent : **
+**Poste de travail agent**:
 
 Dans le cadre d’une application rendue accessible sur le poste de travail de l’agent, le lecteur est invité à se conformer également au volet _Environnement Numérique de Travail_, notamment sur les aspects d’intégration au SSO et la politique des navigateurs.
 
-**Ouverture des données : **
+**Ouverture des données**:
 
 Sur la thématique de l’ouverture et de la circulation de la donnée, le projet est invité à se mettre en conformité avec le volet idoine. Cela concerne notamment le référencement des objets métiers dans le référentiel de cartographie des données et la mise à disposition d’une facilité technique d’accès à la donnée basée sur un standard d’échange de type API.
 
@@ -137,8 +136,8 @@ Le ministère de l’intérieur dispose de plusieurs capacité d’hébergement 
 
 Les offres centrales sont découpées en plusieurs catégories  :
 
-* **Physique ou virtualisées** généralement de type VMWAre tel qu’Isocèle ( DNUM), STIG (STSI2). Cette offre est accessible qu’au MIOM et seul l’exploitant gère la plateforme et les actes d’intervention techniques via Ticketing ITMS
-* **Offre Cloud Pi**[^1]** ‘legacy”** : offre Iaas basée sur OpenSack, actuellement en bascule vers Gen2. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Le développeur gère son outillage en autonomie
+- **Physique ou virtualisées** généralement de type VMWAre tel qu’Isocèle ( DNUM), STIG (STSI2). Cette offre est accessible qu’au MIOM et seul l’exploitant gère la plateforme et les actes d’intervention techniques via Ticketing ITMS
+- **Offre Cloud Pi**[^1]** ‘legacy”** : offre Iaas basée sur OpenSack, actuellement en bascule vers Gen2. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Le développeur gère son outillage en autonomie
 
 
 * **Offre Cloud Pi Native** ( objet de ce volet de CCT ) :  nouvelle offre associant une homologation continue, un socle d’homologation et un hébergement étatique sur kubernetes avec une ouverture ‘accéléré’ des flux réseau.
@@ -165,7 +164,7 @@ L’architecture, le modèle de responsabilité et d’organisation à mettre en
 
 **L’élargissement de la responsabilité du développeur**
 
-La responsabilité du développeur est élargie dans le cadre Cloud Native. Il élabore et exploite une solution qui répond au besoin métier généralement une automatisation d’un ou plusieurs processus métiers . Le développeur s'assure de la qualité et de la disponibilité du service rendu à l’usager selon le précepte : « You build it, you run it ». Il s’organise en équipe intégrée, si nécessaire avec de l’externalisation.
+La responsabilité du développeur est élargie dans le cadre Cloud Native. Il élabore et exploite une solution qui répond au besoin métier généralement une automatisation d’un ou plusieurs processus métiers . Le développeur s'assure de la qualité et de la disponibilité du service rendu à l’usager selon le précepte : **« You build it, you run it »**. Il s’organise en équipe intégrée, si nécessaire avec de l’externalisation.
 
 Le développeur met à disposition d’un point de vérité du code sous la forme d’un ou plusieurs dépôts de code logiciel fonctionnel et d’infrastructure. Il met en place un flux intégré et continu de production en s'appuyant sur un orchestrateur primaire DevSecOps qu’il construit et opère. 
 
@@ -180,9 +179,9 @@ Sur le plan organisationnel le développeur met généralement en place :
 * le découpage des livraisons en lot de taille de réduite ;
 * la mise en place d’une culture de collaboration étendue et des pratiques intégrant la sécurité à toutes les étapes.
 
-**La répartition des responsabilités s'établit de la manière suivante :**
+**La répartition des responsabilités s'établit de la manière suivante**:
 
-**L'équipe produit intégrée :**
+**L'équipe produit intégrée**:
 
 * est responsable de l’application, de la qualité du code  et du bon fonctionnement de l’application pendant <span style="text-decoration:underline;">l’ensemble du cycle de vie de l’application. </span>
 * est responsable de définir et d’ajuster l’infrastructure et l’élasticité du dimensionnement, nécessaire à son application (sur la base de l’offre Cloud adaptée selon la sensibilité des données) Il s'appuie sur les patterns applicatives mise à disposition, les magasins de charts helms et des _operators _disponibles. Il est déconseillé, par exemple, de repackager une base de données alors qu’un _operator_ ou un chart est disponible. ( simplification et systématisation du mcs )
@@ -208,9 +207,9 @@ Sur le plan organisationnel le développeur met généralement en place :
 * Il effectue l’apprentissage comportemental du firewall applicatif Web (WAF) vis-à-vis de l’application dans le cadre fixé par le ministère.
 * Il est invité à mettre en œuvre ce pipeline au plus tôt dans le processus de réalisation.
 
-**Notes :**  ( cf exigences CCT  )
+**Notes** :  ( cf exigences CCT  )
 
-**L’équipe de développement respecte les règles suivantes permettant une qualité de code en progression et un maintien de la sécurité :**
+**L’équipe de développement respecte les règles suivantes permettant une qualité de code en progression et un maintien de la sécurité**
 
 - minimise la portion spécifique de code développés en s’appuyant sur le catalogue des services proposés. (revoir régulièrement)
 - met en place une couverture de test unitaire complète du back-end  ( et fourni les moyens de vérification automatisé à la chaîne secondaire )
@@ -281,9 +280,6 @@ Des pratiques complémentaires sont introduites dans la configuration Cloud Nati
 * Note : Les développeurs n'accèdent pas directement à la production. Seuls les administrateurs habilités peuvent y avoir accès via bastion.
 
 
-###
-
-
 ### Préconisations générales d’architecture et technique
 
 Ce chapitre précise les aspects importants liés à l’usage de kubernetes dans le cadre du ministère de l’intérieur. Il est attendu que les acteurs soient correctement formés à la solution kubernetes et se maintiennent à jour. La technologie évoluant rapidement. 	
@@ -311,7 +307,7 @@ Kubernetes impose une rigueur un peu plus élevée à l’initialisation que d�
 
 Les pods (conteneurs) sont **obligatoirement rootless**, c’est à dire que le compte root n’est jamais utilisé pour faire fonctionner le service et ils utilisent uniquement des ports > 1024.
 
-**Note :** Toute implémentation Kubernetes proposée par un opérateur cloud PI doit interdire le lancement de pod utilisant le compte root. Ce point n’est pas modifiable. Ceci est un point d’attention majeur, la quasi-totalité des conteneurs à disposition sur les plateformes de partage de conteneurs n'étant pas rootless.
+**Note**: Toute implémentation Kubernetes proposée par un opérateur cloud PI doit interdire le lancement de pod utilisant le compte root. Ce point n’est pas modifiable. Ceci est un point d’attention majeur, la quasi-totalité des conteneurs à disposition sur les plateformes de partage de conteneurs n'étant pas rootless.
 
 Les pods doivent démarrer dans leur configuration cible sans état, ou via le passage de paramètres de démarrage ou d’environnement.
 
@@ -374,9 +370,6 @@ Le schéma (indicatifs) précise l’architecture d’intégration d’une appli
 * (8) Kubernetes, sous la forme d’un ou plusieurs namespace(s) isolés ou couplés : fournis l’espace d’exécution de l’application et la gestion des volumes pour le stockage bloc.
 
 
-##
-
-
 ## 4 - Présentation de l’offre interMinistérielle Cloud Pi Native
 
 L’offre Cloud PI native répond aux exigences du CCT à travers un ensemble organisationnel et technique. Elle propose une offre Cloud régalienne, souveraineté, sécurisée et isolée de toute problématique juridique extra-européenne. 
@@ -395,7 +388,7 @@ L’ensemble du code source de l’offre Cloud PI Native et sa documentation son
 
 ![alt_text](images/image9.png "image_tooltip")
 
-Note : chaque région est autonome dans son fonctionnement. Seul le service de stockage objet de type S3 est accessible sur l’ensemble des régions ministérielles. ( réplication en proximité dans le datacenter).
+**Note** : chaque région est autonome dans son fonctionnement. Seul le service de stockage objet de type S3 est accessible sur l’ensemble des régions ministérielles. ( réplication en proximité dans le datacenter).
 
 ### Les magasins de composants kubernetes et d’image de base
 
@@ -409,19 +402,17 @@ Sur les besoins "classiques" de persistance : postgres, redis, mariadb, mongodb,
 
 Sur le cluster de production les operators sont déployés par l’hébergeur car généralement ils requièrent les droits globaux. L’équipe projet doit vérifier les versions disponibles lors de la conception de son projet.
 
-##
-
 ## 5 - Référentiel d’exigences et modalités d'usage
 
 Les exigences du CCT sont classées en 2 niveaux d’exigence (périmètre du Ministère de l’Intérieur) :
 
-* Primordial : L’exigence est impérative et traitée administrativement.
-* I – Important : Exigence prise en compte pour la notation technique de la solution
+- **P**rimordial : L’exigence est impérative et traitée administrativement.
+- **I**mportant : Exigence prise en compte pour la notation technique de la solution
 
 Précisions sur le cas de l’exclusion administrative (périmètre du Ministère de l’Intérieur) :
 
-* La non-conformité au cadre de norme entraîne l’exclusion administrative lors du dépouillement et la mise en œuvre des actions de remédiation du marché lors de l’exécution du marché.
-* La non-conformité aux exigences d’architecture entraîne l’impossibilité d’utilisation du socle de sécurité associé à l’offre Cloud Native
+- La non-conformité au cadre de norme entraîne l’exclusion administrative lors du dépouillement et la mise en œuvre des actions de remédiation du marché lors de l’exécution du marché.
+- La non-conformité aux exigences d’architecture entraîne l’impossibilité d’utilisation du socle de sécurité associé à l’offre Cloud Native
 
 Par défaut les règles du CCT s’imposent. Elles peuvent être précisées dans le cas d’un appel d'offres dans le règlement de consultation pour le dépouillement des offres et dans le CCAP pour l’exécution du marché. Une demande de dérogation est possible. ( cf paragraphe ad hoc )
 
@@ -429,12 +420,12 @@ Pour information les exigences sont organisées telles que décrites ci-dessous 
 
 ![alt_text](images/image7.png "image_tooltip")
 
-1. **Standards & Normes industrielles et étatiques :** ensemble des exigences relatives aux normes de niveau supérieur à respecter pour toute application étatique
-2. **Code applicatif & Image :** exigences issues des “15 factors” pour garantir la conception d’une application “Cloud Native”, associées aux exigences minimales permettant de s’intégrer au contexte du Ministère de l’Intérieur
-3. **Modèle d’opération :** _voir le chapitre précédent_
-4. **Intéractions & Flux :** exigences d’intégration et d’intéraction inter-applicatives dans le contexte étatique et du Ministère de l’Intérieur
-5. **Infrastructure :** exigences et prérequis concernant l’infrastructure sous-jacente (notamment Kubernetes)
-6. **Services mutualisés Applicatifs et d'Infrastructure :** exigences d’intégration aux services centralisés du Ministère de l’Intérieur, permettant une homogénéisation de la production, un meilleur contrôle et une maîtrise de la dette technique
+1. **Standards & Normes industrielles et étatiques**: ensemble des exigences relatives aux normes de niveau supérieur à respecter pour toute application étatique
+2. **Code applicatif & Image**: exigences issues des “15 factors” pour garantir la conception d’une application “Cloud Native”, associées aux exigences minimales permettant de s’intégrer au contexte du Ministère de l’Intérieur
+3. **Modèle d’opération**:  _voir le chapitre précédent_
+4. **Intéractions & Flux**: exigences d’intégration et d’intéraction inter-applicatives dans le contexte étatique et du Ministère de l’Intérieur
+5. **Infrastructure**: exigences et prérequis concernant l’infrastructure sous-jacente (notamment Kubernetes)
+6. **Services mutualisés Applicatifs et d'Infrastructure**: exigences d’intégration aux services centralisés du Ministère de l’Intérieur, permettant une homogénéisation de la production, un meilleur contrôle et une maîtrise de la dette technique
 
 
 ## 6 -  Annexes
@@ -549,4 +540,3 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
 La documentation sur le CloudPI (RIE) :[ https://pi.minint.fr/reseau-cas-dusage/](https://pi.minint.fr/reseau-cas-dusage/)
 
 
-###
