@@ -10,26 +10,26 @@ Date : 27/03/2023
 Auteur : Ministère de l’Intérieur
 ```
 
-## TABLE DES MATIÈRES
-
-<br>**1 - Guide d’utilisation rapide**
-<br>**2 - Le contexte, les enjeux, la vision**
-<br>**3 - Principes généraux cadre Cloud Native**
-<br>Les configurations d’hébergement prises en compte
-<br>Gestion des non-conformités, dérogations et contribution
-<br>Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
-<br>Préconisations générales d’architecture et technique
-<br>Des spécificités à prendre en compte sur la création des conteneurs
-<br>Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
-<br>Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
-<br>Modèle d’intégration d’une application dans le cadre Cloud Native
-<br>**4 - Présentation de l’offre interMinistérielle Cloud Pi Native et de ses évolutions pressenties**
-<br>Les magasins de composants kubernetes et d’image de base
-<br>**5 - Référentiel d’exigences et modalités d'usage**
-<br>**6 -  Annexes**
-<br>Les normes industrielles, institutionnelles applicables
-<br>Liens vers autres contenus utiles(informatif)
-<br>Glossaire
+## 1 - TABLE DES MATIÈRES
+<br> [**1 - TABLE DES MATIÈRES**](#1---table-des-matières)
+<br> [**2 - Le contexte, les enjeux, la vision**](#2---le-contexte-les-enjeux-la-vision)
+<br> [Une évolution des pratiques pour un numérique efficient et éco-responsable et réactif](#une-évolution-des-pratiques-pour-un-numérique-efficient-et-éco-responsable-et-réactif)
+<br> [Les principales caractéristiques du modèle opérationnel Cloud Native](#les-principales-caractéristiques-du-modèle-opérationnel-cloud-native)
+<br>[**3 - Principes généraux cadre Cloud Native**](#3---principes-généraux-cadre-cloud-native)
+<br>[Les configurations d’hébergement prises en compte](#les-configurations-dhébergement-prises-en-compte)
+<br>[Gestion des non-conformités, dérogations et contribution](#gestion-des-non-conformités-dérogations-et-contribution)
+<br>[Le modèle organisationnel, de responsabilité et de collaboration Cloud Native](#le-modèle-organisationnel-de-responsabilité-et-de-collaboration-cloud-native)
+<br>[Préconisations générales d’architecture et technique](#préconisations-générales-darchitecture-et-technique)
+<br>[Des spécificités à prendre en compte sur la création des conteneurs](#spécificités-à-prendre-en-compte-sur-la-création-des-conteneurs)
+<br>[Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux](#spécificités-à-prendre-en-compte-sur-la-topologie-réseau-et-les-ouvertures-de-flux)
+<br>[Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications](#spécificités-à-prendre-en-compte-autour-de-la-qualité-et-de-la-sécurité-des-applications)
+<br>[Modèle d’intégration d’une application dans le cadre Cloud Native](#modèle-dintégration-dune-application-dans-le-cadre-cloud-native)
+<br>[**4 - Présentation de l’offre interMinistérielle Cloud Pi Native et de ses évolutions pressenties**](#4---présentation-de-loffre-interministérielle-cloud-pi-native)
+<br>[Les magasins de composants kubernetes et d’image de base](#les-magasins-de-composants-kubernetes-et-dimage-de-base)
+<br>[**5 - Référentiel d’exigences et modalités d'usage**](#5---référentiel-dexigences-et-modalités-dusage)
+<br>[**6 -  Annexes**](#6----annexes)
+<br>[Les normes industrielles, institutionnelles applicables](#les-normes-industrielles-institutionnelles-applicables)
+<br>[Liens vers autres contenus utiles(informatif)](#liens-vers-autres-contenus-utilesinformatif)
 
 ## 2 - Le contexte, les enjeux, la vision
 
@@ -53,7 +53,7 @@ Le ministère de l’intérieur, l’un des premiers acteurs étatiques à avoir
 
 Les approches cloud, devops et l’agilité ont progressivement permis de concilier des postures antagonistes : les développeurs ayant besoin de pouvoir déployer fréquemment, et l’exploitation ayant au contraire besoin de stabilité et de diminuer les risques liés au changement. La clé réside dans une collaboration étendue de tous les acteurs en prenant compte de la sécurité à toutes les étapes : le devops.
 
-**Une évolution des pratiques pour un numérique efficient et éco-responsable et réactif**
+### Une évolution des pratiques pour un numérique efficient et éco-responsable et réactif
 
 Les contraintes s’accentuent sur la production de services numériques, le standard de qualité général a augmenté massivement avec les acteurs du net et industrielle qui produisent des solutions ergonomiques, sécurisées qui montent à l’échelle facilement. Un fossé important s’est creusé entre l’efficience du numérique ‘legacy’ et ce monde moderne. 
 
@@ -65,7 +65,7 @@ Le mode produit et l’agilité sont indispensables en complément de l’utilis
 
 “ _L’adoption du cloud doit s’accompagner de celle des pratiques associées à l’excellence dans la production de services numériques (proximité entre métiers et équipes informatiques, scalabilité, agilité, « devops », « continuous delivery » qui sont les garants de l’adaptation des produits à leurs utilisateurs) ;  “_
 
-**Les principales caractéristiques du modèle opérationnel Cloud Native:**
+### Les principales caractéristiques du modèle opérationnel Cloud Native
 
 Le fonctionnement évolue vers la suppression de la fragmentation des responsabilités dans la chaîne de production et l’automatisation de celui-ci. (cf mode2 proposé par le Gartner) 
 
@@ -137,12 +137,12 @@ Le ministère de l’intérieur dispose de plusieurs capacité d’hébergement 
 Les offres centrales sont découpées en plusieurs catégories  :
 
 - **Physique ou virtualisées** généralement de type VMWAre tel qu’Isocèle ( DNUM), STIG (STSI2). Cette offre est accessible qu’au MIOM et seul l’exploitant gère la plateforme et les actes d’intervention techniques via Ticketing ITMS
-- **Offre Cloud Pi**[^1]** ‘legacy”** : offre Iaas basée sur OpenSack, actuellement en bascule vers Gen2. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Le développeur gère son outillage en autonomie
+- **Offre Cloud Pi ‘legacy’** : offre Iaas basée sur OpenStack, actuellement en bascule vers Gen2. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Le développeur gère son outillage en autonomie
 
 
 * **Offre Cloud Pi Native** ( objet de ce volet de CCT ) :  nouvelle offre associant une homologation continue, un socle d’homologation et un hébergement étatique sur kubernetes avec une ouverture ‘accéléré’ des flux réseau.
 
-Les configurations suivantes sont prises en compte par ce volet Cloud (Pi) Native du CCT.
+Les configurations suivantes sont prises en compte par ce volet Cloud (Pi) Native du CCT :
 * Hébergement sur les clusters kubernetes managés par le ministère de l’Intérieur, jusqu’au niveau « donnée restreinte » ;
 * Hébergement sur un cluster kubernetes externe au ministère, compatible avec la sensibilité des données manipulées ;
 * Hébergement sur un cluster kubernetes dédié et géré par l’application;
@@ -269,14 +269,14 @@ Des pratiques complémentaires sont introduites dans la configuration Cloud Nati
 
 ![alt_text](images/image5.png "image_tooltip")
 
-* **[1]** Le code logiciel ainsi que celui de description des infrastructures sont produits au sein de l’espace du développeur/concepteur, généralement en externe au Ministère de l’Intérieur.
-* **[2a]** **[2b]**Une interface bi-directionelle entre l’espace du concepteur / développeur et celui de DSO permet en push-pull à la chaîne secondaire de récupérer automatiquement l’ensemble du code et des dépendances nécessaires.
+* **(1)** Le code logiciel ainsi que celui de description des infrastructures sont produits au sein de l’espace du développeur/concepteur, généralement en externe au Ministère de l’Intérieur.
+* **(2a)** **(2b)** Une interface bi-directionelle entre l’espace du concepteur / développeur et celui de DSO permet en push-pull à la chaîne secondaire de récupérer automatiquement l’ensemble du code et des dépendances nécessaires.
 * Le développeur déclenche par appel API les services de synchro /  build / deploy. ( il n’y accède pas directement sauf via un Bastion)
-* **[3a][3b]** La chaîne d’orchestration DevSecOps effectue la récupération du code, des tests de qualité du code, scan de vulnérabilité des dépendances, la reconstruction, les tests de nos régressions, des tests d’homologation, vérification des manifests / charts etc… au regard des politiques de sécurité et dépose les images certifiées sur la registry de la chaîne ainsi que le code d’infrastructure.
+* **(3a)(3b)** La chaîne d’orchestration DevSecOps effectue la récupération du code, des tests de qualité du code, scan de vulnérabilité des dépendances, la reconstruction, les tests de nos régressions, des tests d’homologation, vérification des manifests / charts etc… au regard des politiques de sécurité et dépose les images certifiées sur la registry de la chaîne ainsi que le code d’infrastructure.
 * Le concepteur/développeur accède à un retour d’information détaillée sur le succès ou sur les éventuels défauts, lors du build, deploy de l’application par DSO. ( via message ou webhook )
-* **[4]** : La console provisionne si nécessaires les environnements en ‘poussant’ les ressources nécessaires une foi (secrets, application.yaml (argo), certificats, etc... )
-* **[5]** : L’infrastructure vérifie régulièrement les changements sur le dépôt d’infrastructure (ou déclenchement forcé par API) et synchronise l’environnement à la cible visé et opère une bascule blue-green transparente, cf ArgoCD  ( si échec l’environnement de prod reste inchangé )
-* **[6]** : Le développeur accède à un proxy d’observation du fonctionnement de l’application
+* **(4)** : La console provisionne si nécessaires les environnements en ‘poussant’ les ressources nécessaires une foi (secrets, application.yaml (argo), certificats, etc... )
+* **(5)** : L’infrastructure vérifie régulièrement les changements sur le dépôt d’infrastructure (ou déclenchement forcé par API) et synchronise l’environnement à la cible visé et opère une bascule blue-green transparente, cf ArgoCD  ( si échec l’environnement de prod reste inchangé )
+* **(6)** : Le développeur accède à un proxy d’observation du fonctionnement de l’application
 * Note : Les développeurs n'accèdent pas directement à la production. Seuls les administrateurs habilités peuvent y avoir accès via bastion.
 
 
@@ -301,7 +301,7 @@ Les développeurs n’accèdent pas directement à la plateforme ; cet accès s�
 Pour information : des tests de compatibilité avec d’autres solutions d’hébergement d’acteurs du cloud public ont été menés avec succès.
 
 
-### Des spécificités à prendre en compte sur la création des conteneurs
+### Spécificités à prendre en compte sur la création des conteneurs
 
 Kubernetes impose une rigueur un peu plus élevée à l’initialisation que d’autres solutions.
 
@@ -318,12 +318,12 @@ Les pods sont responsables de vérifier au lancement, si l’application est dan
 L’architecture de l’application, hors persistance de données, est conçue pour être complètement stateless, c'est-à-dire, sans aucune persistance de sessions, états et liens, les pods peuvent être basculés à la volée d’un nœud à un autre sans préavis.
 
 
-### Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
+### Spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
 
 L’organisation de réseau est segmenté par type de service porté par le flux. L’organisation de réseau est segmenté par type de service porté par le flux. ( flux usagers, interdatacenters, interapplicatifs )
 L'ouverture automatique des segments réseau est propre à chaque opérateur cloud. L'ouverture manuelle de ces segments doit répondre à la politique de l'opérateur et être exécutée ou rejetée sous garantie d'un délai maximum (5 jours par exemple).
 
-### Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
+### Spécificités à prendre en compte autour de la qualité et de la sécurité des applications
 
 L’objectif d’ensemble est de s’assurer que le code produit est de qualité constante ou accrue, exempt de vulnérabilités algorithmiques ou importées néfastes. 
 
@@ -355,19 +355,19 @@ Le schéma ci-dessous précise le cadre général d’intégration d’une appli
 
 ![alt_text](images/image3.png "image_tooltip")
 
-Le schéma (indicatifs) précise l’architecture d’intégration d’une application est les types de flux:
+Le schéma (indicatifs) précise l’architecture d’intégration d’une application et les types de flux:
 
-* (1) Inbound usager : accès à l’application des usagers https / websockets (depuis RIE ou Internet )
-* (2a) SSO Citoyens + (2b) SSO AGENT : authentification des usagers ( OIDC / SAML V2 )
-* (3) Acces objets S3 : accès à la persistance objets de l’application
-* (4) Echanges inter-applicatifs ( bordure externe de l’application) : permet d’échange entre des applications de porteurs différentes, selon plusieurs modalités possibles : API restful synchrone,  Asynchrone , fichiers
-* (5a) Autres types de flux : autres types d’échange, sortie vers internet, vers d’autres zone d’hébergement, ou entre des zones de sensibilité différentes
-* (5b) Flux d’accès à des services communs ou ressources  communes ( de protocoles plus variés)
-* (6) échanges entre noeuds de l’application : permet la réplication de l’application entre 2 data centers au même niveau sensibilité de données
-* (7a) Déploiement des ressources de l’application : gestionnaire & console DEVSECOPS / le pipeline interagit avec le/les clusters kubernetes et les gestionnaires d’infrastructures utilisés ( ouverture de flux réseaux, etc... )
-* (7b) Artefacts images & paramétrage : ensemble des ressources liées à une application ou communes ( ex : sources d’images de référence )
-* (7c) Observation : permet de collecter les données liées à l’usage pour la mise au point de l’application ou données de vie.
-* (8) Kubernetes, sous la forme d’un ou plusieurs namespace(s) isolés ou couplés : fournis l’espace d’exécution de l’application et la gestion des volumes pour le stockage bloc.
+* **(1)** Inbound usager : accès à l’application des usagers https / websockets (depuis RIE ou Internet )
+* **(2a)** SSO Citoyens + **(2b)** SSO AGENT : authentification des usagers ( OIDC / SAML V2 )
+* **(3)** Acces objets S3 : accès à la persistance objets de l’application
+* **(4)** Echanges inter-applicatifs ( bordure externe de l’application) : permet d’échange entre des applications de porteurs différentes, selon plusieurs modalités possibles : API restful synchrone,  Asynchrone , fichiers
+* **(5a)** Autres types de flux : autres types d’échange, sortie vers internet, vers d’autres zone d’hébergement, ou entre des zones de sensibilité différentes
+* **(5b)** Flux d’accès à des services communs ou ressources  communes ( de protocoles plus variés)
+* **(6)** échanges entre noeuds de l’application : permet la réplication de l’application entre 2 data centers au même niveau sensibilité de données
+* **(7a)** Déploiement des ressources de l’application : gestionnaire & console DEVSECOPS / le pipeline interagit avec le/les clusters kubernetes et les gestionnaires d’infrastructures utilisés ( ouverture de flux réseaux, etc... )
+* **(7b)** Artefacts images & paramétrage : ensemble des ressources liées à une application ou communes ( ex : sources d’images de référence )
+* **(7c)** Observation : permet de collecter les données liées à l’usage pour la mise au point de l’application ou données de vie.
+* **(8)** Kubernetes, sous la forme d’un ou plusieurs namespace(s) isolés ou couplés : fournis l’espace d’exécution de l’application et la gestion des volumes pour le stockage bloc.
 
 
 ## 4 - Présentation de l’offre interMinistérielle Cloud Pi Native
