@@ -354,7 +354,7 @@ Le schéma ci-dessous précise le cadre général d’intégration d’une appli
 A toute fin utile, un exemple de schéma d'architecture: [DAG-exemple.pdf](exemple-DAG.pdf)
 
 Lien vers le fichier à télécharger et modifier avec éditeur compatible ou en ligne : 
-<a id="raw-url" href="https://raw.githubusercontent.com/cloud-pi-native/cct-cloud-native/main/DAG-exemple.drawio" download target="_blank">Download draw.io file </a>
+<a id="raw-url" href="https://raw.githubusercontent.com/cloud-pi-native/cct-cloud-native/main/DAG-exemple.drawio" download target="_blank"> DAG-exemple.drawio </a>
 
 
 **Architecture d’intégration réseau et flux typiques**  
