@@ -351,6 +351,9 @@ Le schéma ci-dessous précise le cadre général d’intégration d’une appli
 **Vision logique d’ensemble et services de socles**
 ![alt_text](images/image10.png "image_tooltip")
 
+A toute fin utile un exemple de schéma d'architecture ( draw.io ) : 
+<span style="text-decoration:underline;">[DAG-exemple.drawio](DAG-exemple.drawio)</span>
+
 **Architecture d’intégration réseau et flux typiques**  
 
 ![alt_text](images/image3.png "image_tooltip")
@@ -379,16 +382,8 @@ La composition de l’offre est amenée à évoluer en termes de catalogue de se
 - Hébergement de l’application sur des infrastructures cloud externes ;
 - Hébergement de l’application sur des infrastructures gérées par l’application.L’ensemble de l’administration technique de la plateforme et des infrastructures est automatisée, pilotée par le développeur/concepteur via l’orchestration DevSecOps avec mise en œuvre d’un principe dit _gitops_: la plateforme de production “tire” le déploiement.Pour rappel, le développeur n’accède pas directement à l’environnement de production. Toute correction ou évolution suit le processus de déploiement automatisé passe via le principe “gitops” évoqué ci-dessus. Le développeur dispose d’un accès libre à ses environnements (via un poste bastion si l’environnement est situé côté ministériel) il dispose également d’un accès proxifié aux indicateurs de la production. La service team qui l’accompagne, avec les accréditations nécessaires, dispose quant à elle d’un poste dédié lui permettant d’accéder directement via un bastion aux services d’observabilité et faciliter le débogage en production. (note modalité en cours d’évaluation incrémentale )
 
-
-Le modèle de responsabilité est présenté ci-dessous :
-
-![alt_text](images/image6.png "image_tooltip")
-
 L’ensemble du code source de l’offre Cloud PI Native et sa documentation sont disponibles en open-source sous la licence MIT. Toute contribution est la bienvenue.
 
-![alt_text](images/image9.png "image_tooltip")
-
-**Note** : chaque région est autonome dans son fonctionnement. Seul le service de stockage objet de type S3 est accessible sur l’ensemble des régions ministérielles. ( réplication en proximité dans le datacenter).
 
 ### Les magasins de composants kubernetes et d’image de base
 
