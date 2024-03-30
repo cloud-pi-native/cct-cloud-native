@@ -351,9 +351,9 @@ Le schéma ci-dessous précise le cadre général d’intégration d’une appli
 **Vision logique d’ensemble et services de socles**
 ![alt_text](images/image10.png "image_tooltip")
 
-A toute fin utile un exemple de schéma d'architecture ( draw.io ) : 
-<span style="text-decoration:underline;">[exemple-DAG.pdf](exemple-DAG.pdf)</span>
-<span style="text-decoration:underline;">[DAG-exemple.drawio](DAG-exemple.drawio a ouvrir dans un editeur compatible ou en ligne)</span>
+A toute fin utile, un exemple de schéma d'architecture: [DAG-exemple.pdf](exemple-DAG.pdf)
+
+Lien vers le fichier à télécharger et modifier avec éditeur compatible ou en ligne) [https://raw.githubusercontent.com/cloud-pi-native/cct-cloud-native/main/DAG-exemple.drawio]
 
 **Architecture d’intégration réseau et flux typiques**  
 
