@@ -519,6 +519,11 @@ L’équipe projet doit vérifier les versions disponibles lors de la conception
 
 [Lien pour demander l'établissement d'une convention](https://www.demarches-simplifiees.fr/commencer/cloud-pi-native)
 
+[Lien pour accéder à un schéma d'architecture de référence (cf. ci-après)](<https://app.diagrams.net/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcloud-pi-native%2Fcct-cloud-native%2Fmain%2FDAG-exemple.drawio>)
+
+![Enter image alt description](images/DAG-exemple.drawio.png)
+
+
 - [Lien vers l'annexe présentant les normes applicables](./cct-normes.md)
 - [Lien vers la liste des exigences associées au CCT](./cct-exigences.md)
 - [Lien vers le glossaire](./cct-glossaire.md)
