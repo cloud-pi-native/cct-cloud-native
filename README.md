@@ -5,8 +5,9 @@ Cadre de Cohérence Technique (CCT)
 
 Volet  : Cloud π Native  à portée interministérielle
 
-Version : alpha.v4
-Date : 27/03/2023
+Version : Béta.Q2.2024
+Date : 20/04/2024
+
 Auteur : Direction du numérique Ministère de l’Intérieur
 ``````
 ![alt_text](images/image2.png "image_tooltip")![alt_text](images/image4.png "image_tooltip")
@@ -67,6 +68,4 @@ Les  différents documents qui constituent le cadre de cohérence technique  :
 - [Lien vers l'annexe présentant les normes applicables](./cct-normes.md)
 - [Lien vers la liste des exigences associées au CCT ](./cct-exigences.md)
 - [Lien vers le glossaire](./cct-glossaire.md)
-
-
 
