@@ -58,8 +58,8 @@ Seul un changement majeur de pratiques s’appuyant sur l’opportunité du Clou
 
 Le mode produit et l’agilité sont indispensables en complément de l’utilisation du cloud, extrait de la doctrine cloud au centre:
 
-     \
-Citation issue de la doctrine cloud au centre de l’État : “ *L’adoption du cloud doit s’accompagner de celle des pratiques associées à l’excellence dans la production de services numériques (proximité entre métiers et équipes informatiques, scalabilité, agilité, « devops », « continuous delivery » qui sont les garants de l’adaptation des produits à leurs utilisateurs) ;  “*
+Citation issue de la doctrine cloud au centre de l’État : 
+>   “ *L’adoption du cloud doit s’accompagner de celle des pratiques associées à l’excellence dans la production de services numériques (proximité entre métiers et équipes informatiques, scalabilité, agilité, « devops », « continuous delivery » qui sont les garants de l’adaptation des produits à leurs utilisateurs) ;  “*
 
 **Les principales caractéristiques du modèle opérationnel Cloud Native:**
 
