@@ -514,9 +514,11 @@ Sur les besoins "classiques" de persistance : postgres, redis, mariadb, mongodb,
 
 L’équipe projet doit vérifier les versions disponibles lors de la conception de son projet.
 
-# 6 - Introduction à l’offre de service du ministère
+# 6 - Introduction à l’offre de service du ministère (Béta)
 
-![Enter image alt description](Images/gmm_Image_6.png)
+![Enter image alt description](Images/offre-clou-pi-native-220424.png)
+
+[Lien pour demander l'établissement d'une convention](https://www.demarches-simplifiees.fr/commencer/cloud-pi-native)
 
 - [Lien vers l'annexe présentant les normes applicables](./cct-normes.md)
 - [Lien vers la liste des exigences associées au CCT](./cct-exigences.md)
