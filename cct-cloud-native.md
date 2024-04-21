@@ -121,7 +121,7 @@ Ce document ainsi que le référentiel d’exigences sont annexés aux dossiers 
 
 D’autres référentiels d’exigences ou des guides peuvent être applicables ou conseillés. voir plus loin le chapitre sur les cadres de normes supérieures.
 
-**Offre de service Cloud (****π****) Native :**
+**Offre de service Cloud π Native :**
 
 Concerne la description de l’offre de service managé d’infrastructure Cloud **π** et d’une chaîne DevSecOps assurant l’homologation en continu et le déploiement en production. Cf. présentation de l’offre plus loin dans ce document. Cette offre évoluera selon les demandes et financement disponible vers services d’abstraction de l’infrastructure, tel que service managés, fonction, etc…
 
@@ -145,8 +145,7 @@ Les offres d’hébergement centrales sont découpées en plusieurs catégories 
 
 - **Physique ou virtualisées** généralement de type VMWAre tel qu’Isocèle ( DTNUM), STIG (ANFSI). Cette offre est accessible qu’au MIOM et seul l’exploitant gère la plateforme et les actes d’intervention techniques via Ticketing ITMS
 
-- **Offre Cloud Pi**
-- - **** : offre Iaas basée sur OpenStack. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Note : Le développeur gère son outillage projet en autonomie
+- **Offre Cloud Pi** : offre Iaas basée sur OpenStack. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Note : Le développeur gère son outillage projet en autonomie
 
 - **Offre Cloud Pi Native** ( objet de ce volet de CCT ) :  offre s’appuyant sur Cloud Pi, avec un espace d’exécution sur kubernetes, des services d’accélération de construction applicatif en sus.
 
@@ -190,7 +189,7 @@ Sur le plan organisationnel le développeur met généralement en place :
 
 - un contrôle de qualité au plus tôt, par exemple par un assistant et la revue de code ;
 
-- l’agilité****avec des itérations courtes de constructions et de vérification des usagers ;
+- l’agilité avec des itérations courtes de constructions et de vérification des usagers ;
 
 - le découpage des livraisons en lot de taille de réduite ;
 
@@ -326,7 +325,7 @@ Le **“shift-left”**(vers la gauche du processus de développement) fait réf
 
 **Principe de fonctionnement du pipeline d’ensemble ( chaînes primaire et secondaire )**
 
-![Enter image alt description](Images/NsR_Image_2.png)
+![vue du pipeline d'ensemble](images/NsR_Image_2.png)
 
 - **[1]** Le code logiciel ainsi que celui de description des infrastructures sont produits au sein de l’espace du développeur/concepteur, généralement en externe au Ministère de l’Intérieur.
 
@@ -448,11 +447,11 @@ Le schéma ci-dessous précise le cadre général d’intégration d’une appli
 
 **Vision logique d’ensemble et services de socles et du modèle de sécurité**
 
-![Enter image alt description](Images/3eg_Image_3.png)
+![Enter image alt description](images/3eg_Image_3.png)
 
-**A****rchitecture d’intégration réseau et flux typiques**
+**Architecture d’intégration réseau et flux typiques**
 
-![Enter image alt description](Images/Mm2_Image_4.png)
+![Enter image alt description](images/Mm2_Image_4.png)
 
 - (1) Inbound usager : accès à l’application des usagers https / websockets (depuis RIE ou Internet )
 
@@ -498,7 +497,7 @@ L’ensemble du code source de l’offre Cloud PI Native et sa documentation son
 
 La politique de segmentation d’hébergement est présentée ci-dessous :
 
-![Enter image alt description](Images/b5p_Image_5.png)
+![Enter image alt description](images/b5p_Image_5.png)
 
 Note : chaque région est autonome dans son fonctionnement. Seul le service de stockage objet de type S3 est accessible sur l’ensemble des régions ministérielles. ( réplication en proximité dans le datacenter).
 
@@ -516,7 +515,7 @@ L’équipe projet doit vérifier les versions disponibles lors de la conception
 
 # 6 - Introduction à l’offre de service du ministère (Béta)
 
-![Enter image alt description](Images/offre-clou-pi-native-220424.png)
+![Enter image alt description](images/offre-clou-pi-native-220424.png)
 
 [Lien pour demander l'établissement d'une convention](https://www.demarches-simplifiees.fr/commencer/cloud-pi-native)
 
