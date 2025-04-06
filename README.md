@@ -15,8 +15,6 @@ Auteur : Direction du numérique Ministère de l’Intérieur
 
 
 Cette version RFC (request for comment) vous permet de proposer vos commentaires de plusieurs manières:
-
-- faire des Pulls request sur le repository
 - faire des issues
 - utiliser le fichier de relecture proposé
 [Fichier pour commentaires ](./gabarit-pour-commentaires.ods)
